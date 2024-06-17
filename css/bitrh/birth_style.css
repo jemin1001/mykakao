@@ -1,0 +1,391 @@
+@charset "UTF-8";
+@import "./../reset.css";
+#wrap {
+  width: 640px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+#wrap > header {
+  display: flex;
+  position: relative;
+  flex-flow: row nowrap;
+  height: 30px;
+  margin-bottom: 15px;
+}
+#wrap > header > h1 {
+  position: absolute;
+  left: 5px;
+  top: 0;
+  font-size: 20px;
+}
+#wrap > header > h2 {
+  position: absolute;
+  left: 50px;
+  top: 0;
+  font-size: 20px;
+}
+#wrap > header ul.top4 {
+  display: flex;
+  flex-flow: row nowrap;
+  position: absolute;
+  right: 5px;
+  top: 0;
+}
+#wrap > header ul.top4 > li {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+#wrap > header ul.top4 > li > a {
+  display: block;
+  text-indent: -9999px;
+}
+#wrap > header ul.top4 > li.alarm {
+  background-image: url(./../../images/알람시계.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > header ul.top4 > li.wifi {
+  width: 30px;
+  background-image: url(./../../images/와이파이.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > header ul.top4 > li.hundred {
+  width: 30px;
+  background-image: url(./../../images/100퍼센트.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > header ul.top4 > li.battery {
+  margin-right: 0;
+  background-image: url(./../../images/배터리.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > section {
+  margin-left: 5px;
+}
+#wrap > section.top {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 30px;
+}
+#wrap > section.top > p {
+  width: 50px;
+  background-image: url(./../../images/왼쪽화살표.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > section.top > p > a {
+  display: block;
+  height: 30px;
+  text-indent: -9999px;
+}
+#wrap > section.top > h2 {
+  font-size: 23px;
+}
+#wrap > section.top > h2 a {
+  display: block;
+  height: 30px;
+}
+#wrap > section.middle-1 > h2 {
+  margin-bottom: 5px;
+}
+#wrap > section.middle-1 > p {
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+#wrap > section.middle-1 > ul {
+  display: flex;
+  flex-flow: row nowrap;
+  position: relative;
+}
+#wrap > section.middle-1 > ul li a {
+  display: block;
+}
+#wrap > section.middle-1 > ul > li:nth-child(1) {
+  width: 50px;
+  border: 1px solid #000;
+  border-radius: 20%;
+}
+#wrap > section.middle-1 > ul > li:nth-child(1) > a {
+  height: 50px;
+  text-indent: -9999px;
+}
+#wrap > section.middle-1 > ul > li:nth-child(2) {
+  position: absolute;
+  left: 60px;
+  top: 15px;
+  font-weight: 600;
+  font-size: 15px;
+}
+#wrap > section.middle-1 > ul > li:nth-child(3) {
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  font-weight: 500;
+}
+#wrap > section.middle-1 > ul > li:nth-child(4) {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  width: 30px;
+  background-image: url(./../../images/선물하기-버튼.png);
+}
+#wrap > section.middle-1 > ul > li:nth-child(4) > a {
+  display: block;
+  height: 30px;
+  text-indent: -9999px;
+}
+#wrap > section.middle-1 > ul > li:nth-child(4):hover {
+  background-image: url(./../../images/선물하기-버튼-호버.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > section.middle-2 {
+  margin: 20px 0 20px 5px;
+}
+#wrap > section.middle-2 > h2 {
+  margin-bottom: 5px;
+}
+#wrap > section.middle-2 > p {
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+#wrap > section.middle-2 > ul.fastBirth {
+  display: flex;
+  flex-flow: row nowrap;
+  position: relative;
+  margin-bottom: 15px;
+}
+#wrap > section.middle-2 > ul.fastBirth > li > a {
+  display: block;
+}
+#wrap > section.middle-2 > ul.fastBirth > li:nth-child(1) {
+  width: 50px;
+  border: 1px solid #000;
+  border-radius: 20%;
+}
+#wrap > section.middle-2 > ul.fastBirth > li:nth-child(1) > a {
+  height: 50px;
+  text-indent: -9999px;
+}
+#wrap > section.middle-2 > ul.fastBirth > li:nth-child(2) {
+  position: absolute;
+  left: 60px;
+  top: 15px;
+  font-weight: 600;
+  font-size: 15px;
+}
+#wrap > section.middle-2 > ul.fastBirth > li:nth-child(3) {
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  font-weight: 500;
+}
+#wrap > section.middle-2 > ul.fastBirth > li:nth-child(4) {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  width: 30px;
+  background-image: url(./../../images/선물하기-버튼.png);
+}
+#wrap > section.middle-2 > ul.fastBirth > li:nth-child(4) > a {
+  display: block;
+  height: 30px;
+  text-indent: -9999px;
+}
+#wrap > section.middle-2 > ul.fastBirth > li:nth-child(4):hover {
+  background-image: url(./../../images/선물하기-버튼-호버.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > section.middle-2 > ul.slowBirth-2 {
+  display: flex;
+  flex-flow: row nowrap;
+  position: relative;
+  margin-bottom: 15px;
+}
+#wrap > section.middle-2 > ul.slowBirth-2 > li > a {
+  display: block;
+}
+#wrap > section.middle-2 > ul.slowBirth-2 > li:nth-child(1) {
+  width: 50px;
+  border: 1px solid #000;
+  border-radius: 20%;
+}
+#wrap > section.middle-2 > ul.slowBirth-2 > li:nth-child(1) > a {
+  height: 50px;
+  text-indent: -9999px;
+}
+#wrap > section.middle-2 > ul.slowBirth-2 > li:nth-child(2) {
+  position: absolute;
+  left: 60px;
+  top: 15px;
+  font-weight: 600;
+  font-size: 15px;
+}
+#wrap > section.middle-2 > ul.slowBirth-2 > li:nth-child(3) {
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  font-weight: 500;
+}
+#wrap > section.middle-2 > ul.slowBirth-2 > li:nth-child(4) {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  width: 30px;
+  background-image: url(./../../images/선물하기-버튼.png);
+}
+#wrap > section.middle-2 > ul.slowBirth-2 > li:nth-child(4) > a {
+  display: block;
+  height: 30px;
+  text-indent: -9999px;
+}
+#wrap > section.middle-2 > ul.slowBirth-2 > li:nth-child(4):hover {
+  background-image: url(./../../images/선물하기-버튼-호버.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > section.middle-2 > ul.slowBirth-3 {
+  display: flex;
+  flex-flow: row nowrap;
+  position: relative;
+  margin-bottom: 15px;
+}
+#wrap > section.middle-2 > ul.slowBirth-3 > li > a {
+  display: block;
+}
+#wrap > section.middle-2 > ul.slowBirth-3 > li:nth-child(1) {
+  width: 50px;
+  border: 1px solid #000;
+  border-radius: 20%;
+}
+#wrap > section.middle-2 > ul.slowBirth-3 > li:nth-child(1) > a {
+  height: 50px;
+  text-indent: -9999px;
+}
+#wrap > section.middle-2 > ul.slowBirth-3 > li:nth-child(2) {
+  position: absolute;
+  left: 60px;
+  top: 15px;
+  font-weight: 600;
+  font-size: 15px;
+}
+#wrap > section.middle-2 > ul.slowBirth-3 > li:nth-child(3) {
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  font-weight: 500;
+}
+#wrap > section.middle-2 > ul.slowBirth-3 > li:nth-child(4) {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  width: 30px;
+  background-image: url(./../../images/선물하기-버튼.png);
+}
+#wrap > section.middle-2 > ul.slowBirth-3 > li:nth-child(4) > a {
+  display: block;
+  height: 30px;
+  text-indent: -9999px;
+}
+#wrap > section.middle-2 > ul.slowBirth-3 > li:nth-child(4):hover {
+  background-image: url(./../../images/선물하기-버튼-호버.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > section.middle-2 > ul.slowBirth {
+  display: flex;
+  flex-flow: row nowrap;
+  position: relative;
+  margin-bottom: 15px;
+}
+#wrap > section.middle-2 > ul.slowBirth > li > a {
+  display: block;
+}
+#wrap > section.middle-2 > ul.slowBirth > li:nth-child(1) {
+  width: 50px;
+  border: 1px solid #000;
+  border-radius: 20%;
+}
+#wrap > section.middle-2 > ul.slowBirth > li:nth-child(1) > a {
+  height: 50px;
+  text-indent: -9999px;
+}
+#wrap > section.middle-2 > ul.slowBirth > li:nth-child(2) {
+  position: absolute;
+  left: 60px;
+  top: 15px;
+  font-weight: 600;
+  font-size: 15px;
+}
+#wrap > section.middle-2 > ul.slowBirth > li:nth-child(3) {
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  font-weight: 500;
+}
+#wrap > section.middle-2 > ul.slowBirth > li:nth-child(4) {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  width: 30px;
+  background-image: url(./../../images/선물하기-버튼.png);
+}
+#wrap > section.middle-2 > ul.slowBirth > li:nth-child(4) > a {
+  display: block;
+  height: 30px;
+  text-indent: -9999px;
+}
+#wrap > section.middle-2 > ul.slowBirth > li:nth-child(4):hover {
+  background-image: url(./../../images/선물하기-버튼-호버.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > footer {
+  width: 100%;
+  height: 40px;
+  margin-top: 150px;
+  background-color: #eee;
+}
+#wrap > footer > ul {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100%;
+}
+#wrap > footer > ul > li {
+  width: 33%;
+}
+#wrap > footer > ul > li > a {
+  display: block;
+  height: 100%;
+  text-indent: -9999px;
+}
+#wrap > footer > ul > li:nth-of-type(1) {
+  background-image: url(./../../images/최근앱버튼.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > footer > ul > li:nth-of-type(1):hover {
+  background-color: #bde4ea;
+}
+#wrap > footer > ul > li:nth-of-type(2) {
+  width: 34%;
+  background-image: url(./../../images/홈버튼.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > footer > ul > li:nth-of-type(2):hover {
+  background-color: #bde4ea;
+}
+#wrap > footer > ul > li:nth-of-type(3) {
+  background-image: url(./../../images/뒤로가기-하단.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > footer > ul > li:nth-of-type(3):hover {
+  background-color: #bde4ea;
+}/*# sourceMappingURL=birth_style.css.map */

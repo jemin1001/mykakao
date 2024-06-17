@@ -1,0 +1,234 @@
+@charset "UTF-8";
+@import "./../reset.css";
+#wrap {
+  width: 640px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+#wrap > header {
+  display: flex;
+  position: relative;
+  flex-flow: row nowrap;
+  height: 30px;
+  margin-bottom: 15px;
+}
+#wrap > header > h1 {
+  position: absolute;
+  left: 5px;
+  top: 0;
+  font-size: 20px;
+}
+#wrap > header > h2 {
+  position: absolute;
+  left: 50px;
+  top: 0;
+  font-size: 20px;
+}
+#wrap > header ul.top4 {
+  display: flex;
+  flex-flow: row nowrap;
+  position: absolute;
+  right: 5px;
+  top: 0;
+}
+#wrap > header ul.top4 > li {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+#wrap > header ul.top4 > li > a {
+  display: block;
+  text-indent: -9999px;
+}
+#wrap > header ul.top4 > li.alarm {
+  background-image: url(./../../images/알람시계.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > header ul.top4 > li.wifi {
+  width: 30px;
+  background-image: url(./../../images/와이파이.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > header ul.top4 > li.hundred {
+  width: 30px;
+  background-image: url(./../../images/100퍼센트.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > header ul.top4 > li.battery {
+  margin-right: 0;
+  background-image: url(./../../images/배터리.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > section.top {
+  position: relative;
+}
+#wrap > section.top > h2 {
+  display: none;
+}
+#wrap > section.top > p {
+  width: 50px;
+  margin-left: 10px;
+  background-image: url(./../../images/X-프로필뒤로가기.png);
+}
+#wrap > section.top > p > a {
+  display: block;
+  height: 50px;
+  text-indent: -9999px;
+}
+#wrap > section.top > p:hover {
+  background-image: url(./../../images/X-프로필호버.gif);
+}
+#wrap > section.top > ul {
+  display: flex;
+  flex-flow: row nowrap;
+}
+#wrap > section.top > ul > li {
+  width: 42px;
+}
+#wrap > section.top > ul > li > a {
+  display: block;
+  height: 42px;
+}
+#wrap > section.top > ul > li:nth-child(1) {
+  position: absolute;
+  right: 70px;
+  top: 0;
+  background-image: url(./../../images/선물-프로필우측상단.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > section.top > ul > li:nth-child(1) > a {
+  text-indent: -9999px;
+}
+#wrap > section.top > ul > li:nth-child(1):hover {
+  background-image: url(./../../images/선물-프로필호버.gif);
+}
+#wrap > section.top > ul > li:nth-child(2) {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  background-image: url(./../../images/설정-프로필우측상단.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > section.top > ul > li:nth-child(2) > a {
+  text-indent: -9999px;
+}
+#wrap > section.top > ul > li:nth-child(2):hover {
+  width: 45px;
+  height: 45px;
+  background-image: url(./../../images/설정-프로필우측상단-호버.gif);
+}
+#wrap > section.middle {
+  margin-top: 350px;
+}
+#wrap > section.middle > h2 {
+  display: none;
+}
+#wrap > section.middle > ul {
+  position: relative;
+  text-align: center;
+}
+#wrap > section.middle > ul > li:nth-child(1) {
+  position: absolute;
+  left: 275px;
+  top: -95px;
+  width: 90px;
+  border: 1px solid #000;
+  border-radius: 20%;
+}
+#wrap > section.middle > ul > li:nth-child(1) > a {
+  display: block;
+  height: 90px;
+  text-indent: -9999px;
+}
+#wrap > section.middle > ul > li:nth-child(2) {
+  margin: 3px 0;
+  font-weight: 700;
+  font-size: 15px;
+}
+#wrap > section.middle > ul > li:nth-child(3) {
+  font-weight: 500;
+  font-size: 13px;
+}
+#wrap > section.bottom > h2 {
+  display: none;
+}
+#wrap > section.bottom > ul.icon {
+  display: flex;
+  flex-flow: row nowrap;
+}
+#wrap > section.bottom > ul.icon > li {
+  width: 60px;
+}
+#wrap > section.bottom > ul.icon > li > a {
+  display: block;
+  height: 60px;
+}
+#wrap > section.bottom > ul.icon > li:nth-child(1) {
+  background-image: url(./../../images/말풍선-프로필.png);
+  background-size: contain;
+}
+#wrap > section.bottom > ul.icon > li:nth-child(1) > a {
+  text-indent: -9999px;
+}
+#wrap > section.bottom > ul.icon > li:nth-child(1):hover {
+  background-image: url(./../../images/말풍선-프로필호버.gif);
+}
+#wrap > section.bottom > ul.icon > li:nth-child(2) {
+  background-image: url(./../../images/편집-프로필.png);
+  background-size: contain;
+}
+#wrap > section.bottom > ul.icon > li:nth-child(2) > a {
+  text-indent: -9999px;
+}
+#wrap > section.bottom > ul.icon > li:nth-child(2):hover {
+  background-image: url(./../../images/편집-프로필호버.gif);
+}
+#wrap > footer {
+  width: 100%;
+  height: 40px;
+  background-color: #eee;
+}
+#wrap > footer > ul {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100%;
+}
+#wrap > footer > ul > li {
+  width: 33%;
+}
+#wrap > footer > ul > li > a {
+  display: block;
+  height: 100%;
+  text-indent: -9999px;
+}
+#wrap > footer > ul > li:nth-of-type(1) {
+  background-image: url(./../../images/최근앱버튼.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > footer > ul > li:nth-of-type(1):hover {
+  background-color: #bde4ea;
+}
+#wrap > footer > ul > li:nth-of-type(2) {
+  width: 34%;
+  background-image: url(./../../images/홈버튼.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > footer > ul > li:nth-of-type(2):hover {
+  background-color: #bde4ea;
+}
+#wrap > footer > ul > li:nth-of-type(3) {
+  background-image: url(./../../images/뒤로가기-하단.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > footer > ul > li:nth-of-type(3):hover {
+  background-color: #bde4ea;
+}/*# sourceMappingURL=profile_style.css.map */
